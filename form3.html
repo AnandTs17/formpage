@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkboxes</title>
+</head>
+<body>
+    <h1>checkbox</h1>
+    <form>
+        <!--field set-->
+        <fieldset>
+    <label>
+        <legend>CHECKBOXES</legend>
+        <input type="checkbox" name="abd" value="ad"> ABD
+    </label>
+    <label>
+        <input type="checkbox" name="gayle" value="ge"> GAYLE
+    </label>
+    <label>
+        <input type="checkbox" name="kohli" value="ki"> KOHLI
+    </label><br><br>
+</fieldset>
+    <!--radio-->
+    <label>
+        <input type="radio" name="category" value="sc">SC
+    </label>
+    <label>
+        <input type="radio" name="category" value="st">ST
+    </label>
+    <label>
+        <input type="radio" name="category" value="obc">OBC
+    </label>
+    <br><br>
+<!--file-->
+
+<label for="file">Uploas a file</label>
+<input type="file" name="img"  accept=".jpg">
+<br><br>
+    <!--range-->
+    <label>rate your skils</label>
+        <input type="range"><br><br>
+
+        <!--select -->
+        <label for="skills">Enter your Skills</label>
+        <select id="skills" name="skills"> <!--multiple also -->
+            <option value="jv">Java</option>
+            <option value="sq">SQL</option>
+            <option value="ds">DSA</option>
+        </select>
+        <br><br>
+        <!--txt area-->
+        <label for="paragraph">Write a Paragraph</label>
+        <textarea id="paragraph" name="paragraph" rows="10" cols="20" title="please enter a paragraph that contains 250 words"></textarea><br><br>
+    <button type="submit">SUBMIT</button>
+    </form>
+</body>
+</html>
